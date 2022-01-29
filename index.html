@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone do site da Netflix</title>
     
+    <!-- Responsividade. -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- CSS principal. -->
     <link rel="stylesheet" href="css/style.css">
 
-    <script src="https://kit.fontawesome.com/359ac2602b.js" crossorigin="anonymous"></script>
+    <!-- Owl. -->
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
 </head>
 <body>
     <header>
@@ -26,18 +32,86 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">Matrix</h3>
+                <h3 class="titulo">MATRIX</h3>
                 <p class="descricao">Bem-vindo ao mundo real.</p>
-                <button role="button" class="botao">
-                    <i class="fas fa-play"></i>
-                    ASSISTIR AGORA
-                </button>
-                <button role="button" class="botao">
-                    <i class="fas fa-info-circle"></i>
-                    MAIS INFORMAÇÕES
-                </button>
+                <a target="_blank" href="https://www.youtube.com/watch?v=vKQi3bBA1y8">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.rottentomatoes.com/m/matrix">
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </a>
             </div>
         </div>
     </main>
+
+    <h2>Últimos Lançamentos</h2>
+
+    <div class="carousel-films">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="images/capa01.jpg" alt="Matrix: Resurrections">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="images/capa02.jpg" alt="Matrix">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="images/capa03.jpg" alt="Matrix: Reloaded">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="images/capa04.jpg" alt="Matrix Revolutions">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="images/capa05.jpg" alt="Jogador Número Um">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="images/capa06.jpg" alt="O Jogo da Imitação">
+            </div>
+        </div>
+    </div>
+
+    <h2>Recomendados Para Você</h2>
+
+    <div class="carousel-films">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/exld4RI4PvPZHuWiKFlmB1T3Byt.jpg" alt="Mr. Robot">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7PRddO7z7mcPi21nZTCMGShAyy1.jpg" alt="Black Mirror">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fR0VZ0VE598zl1lrYf7IfBqEwQ2.jpg" alt="Black Mirror: Bandersnatch">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/37ucjwWAFQAzB22MHMIcrbuqq8D.jpg" alt="Transcendence: A Revolução">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2Wjn5vxvJmomJQkLuUwyX2hBaif.jpg" alt="Wall-E">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4ca2o7afA65YGoc9hsmwobIivsQ.jpg" alt="O Dilema Das Redes">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a target="_blank" href="https://github.com/augusto404/clone-netflix">Repositório do site</a>
+    </footer>
+
+    <!-- Icones. -->
+    <script src="https://kit.fontawesome.com/359ac2602b.js" crossorigin="anonymous"></script>
+    
+    <!-- Owl. -->
+    <script src="javascript/owl/jquery.min.js"></script>
+    <script src="javascript/owl/owl.carousel.min.js"></script>
+
+    <!-- Setup -->
+    <script src="javascript/owl/setup.js"></script>
 </body>
 </html>

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 700px){
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    footer a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 800px){
+    /* Centralização da imagem da capa do filme princpal para PC. */
+    .filme-principal {
+        background-position-y: -298px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .descricao {
+        width: 50%;
+    }
+}
