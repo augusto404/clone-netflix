@@ -16,4 +16,4 @@ O conceito da minha versão é de uma plataforma de filmes, séries e documentá
 <br><br>
 
 ---
-[CLIQUE AQUI E ACESSE O SITE]()
+[CLIQUE AQUI E ACESSE O SITE](https://augusto404.github.io/clone-netflix/)
