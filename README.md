@@ -1,9 +1,9 @@
-# Cyberflix - Clone da Netflix
+# Cyberflix - Recriando página da Netflix
 ## Sobre
-Esse projeto foi feito pelas aulas do desafio de HTML/CSS/JavaScript do professor [Felipe Aguiar](https://github.com/felipeAguiarCode), da platafora [Digital Innovation One](https://web.dio.me/).
+Esse projeto foi feito pelas aulas do desafio de HTML/CSS/JavaScript do professor [Felipe Aguiar](https://github.com/felipeAguiarCode), da plataforma [Digital Innovation One](https://web.dio.me/).
 
 ## Detalhes
-Nesse desafio, eu fiz um clone da Netflix com algumas alterações baseadas nos meus conhecimentos básicos nas linguagens trabalhadas.
+Nesse desafio, eu recriei a página web da Netflix com algumas alterações baseadas nos meus conhecimentos básicos nas linguagens trabalhadas.
 
 O conceito da minha versão é de uma plataforma de filmes, séries e documentários focados em tecnologia, por isso o nome _Cyberflix_.
 
